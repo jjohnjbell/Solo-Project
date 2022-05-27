@@ -1,0 +1,167 @@
+body {
+
+    background: linear-gradient(#2dc7ff, #ddbaa4, #ead2ac);
+    margin: 10px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+#section-hero,#section-activities, #section-guide{
+    box-shadow: 0px .5px 3px black;
+    margin: 10px auto 0px auto;
+    border-radius: 10px;
+    width: 720px;
+    height: 394px;
+}
+
+#section-hero {
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-image: url("images/ocean.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    background-size: cover; 
+}
+
+.welcome-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    color: white;
+    background: rgba(4, 3, 2, .3);
+    margin-top: 30px;
+    border-radius: 8px;
+    font-weight: 700px;
+    text-shadow: 0px 0px 2px black;
+    padding: 0px 6px;
+}
+
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
+}
+
+
+#section-activities {
+    margin: 10px auto 0px auto;
+    padding-top: 10px;
+    width: 720px;
+    height: 343px;
+    background: #F1FAEE;
+    text-shadow: 1px 0px 1px black;
+    
+    
+    
+}
+
+.container-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+#scenery-div, #food-div, #romance-div {
+    flex-basis: 33%;
+}
+
+#activity-welcome{
+    color: #1D3557;
+    text-shadow: 3px 0px px black;
+    text-decoration: underline;
+}
+
+.activities-tag{
+    font-weight: 200px;
+    color: #1D3557;
+    text-decoration: underline;
+}
+
+.short-desc{
+    background-color: rgba(35, 75, 22,.5);
+    border-radius:10px; 
+    text-shadow: 0px 0px 1px black;
+    padding:5px 1px 20px 1px;
+    margin:2px; 
+}
+
+
+#section-guide{
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+#guide-box{
+    width: 400px;
+    height:294px;
+    background:#A8DADC;
+    border-radius: 10px;
+    display:flex; 
+    justify-content: space-around;
+    padding:20px 20px 4px 20px;
+    column-gap: 1em;
+        
+}
+
+#guide-pic{
+    width:180px;
+    height:200px;
+    image-rendering:pixelated; 
+    border-radius: 10px;
+    flex-basis: 50%;
+    margin: auto auto auto auto;
+    box-shadow: 0px 6px 0px #1d3557;
+
+
+}
+
+#guide-info{
+    color:#1D3557;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+#join-us{
+    margin-bottom: -10px;
+    text-shadow: 0px 3px 1px white;
+    font-weight:900;
+}
+
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size:30px;
+    font-family:serif;
+    border-bottom: 3px solid white;
+}
+
+img:hover{
+    animation-name: growth;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    
+}
+
+@keyframes growth{
+    0% {border:1px solid black;}
+    20% {border:2px solid blue;}
+    40% {border:3px solid blueviolet;}
+    600% {border:4px solid yellowgreen;}
+    80% {border:5px solid orange;}
+    100% {border:5px solid white;}
+}
+
+
+
